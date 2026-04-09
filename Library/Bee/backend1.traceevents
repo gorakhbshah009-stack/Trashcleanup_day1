@@ -1,0 +1,681 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1775749524518946, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524519051, "dur":1983, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524521046, "dur":700, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524521810, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1775749524521866, "dur":525, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524523579, "dur":3704, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_C5721EE514191493.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1775749524528365, "dur":2325, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1775749524531486, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp2" }}
+,{ "pid":12345, "tid":0, "ts":1775749524532141, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt" }}
+,{ "pid":12345, "tid":0, "ts":1775749524532276, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1775749524532534, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2" }}
+,{ "pid":12345, "tid":0, "ts":1775749524532691, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt" }}
+,{ "pid":12345, "tid":0, "ts":1775749524534640, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524534839, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2" }}
+,{ "pid":12345, "tid":0, "ts":1775749524535073, "dur":116, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524535437, "dur":154, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524535768, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524535867, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll (+2 others)" }}
+,{ "pid":12345, "tid":0, "ts":1775749524536306, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524537189, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" }}
+,{ "pid":12345, "tid":0, "ts":1775749524537330, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1775749524537816, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1775749524537883, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524538397, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1775749524538680, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1775749524522424, "dur":16512, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524538948, "dur":69609, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524608559, "dur":374, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749524609015, "dur":808696, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749525417836, "dur":110, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749525417984, "dur":1278, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1775749524523061, "dur":15919, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524538991, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_4964D0AFD9F0813A.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1775749524539234, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SketchUpModule.dll_8BF207EDD1DF0FC3.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1775749524539440, "dur":152, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_FA42C538DE652DC3.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1775749524539635, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524539759, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_BFB3231DB1EFEA0C.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1775749524539980, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524540129, "dur":451, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1775749524540671, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524541228, "dur":883, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Editor\\treeview\\TrackGui\\TimelineTrackGUI.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524540931, "dur":1300, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524542232, "dur":371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524542603, "dur":599, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524543203, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524543517, "dur":281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524543799, "dur":277, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524544077, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524544359, "dur":387, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524544747, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524545531, "dur":550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524546082, "dur":330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524546413, "dur":269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524546743, "dur":995, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Runtime\\TimelineAsset.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524546682, "dur":1439, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524548121, "dur":332, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524548453, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524548737, "dur":271, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524549008, "dur":264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524549747, "dur":1348, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\IncomingChangesTreeView.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524551096, "dur":1204, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\IncomingChangesTreeHeaderState.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524552301, "dur":1104, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\IncomingChangesTab.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524553406, "dur":1458, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\IncomingChangesSelection.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524554864, "dur":1383, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\ChangeTreeViewItem.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524556247, "dur":1321, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Gluon\\ChangeCategoryTreeViewItem.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524557569, "dur":1681, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\DrawMergeOverview.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524559251, "dur":877, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\UnityMergeTree.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524560128, "dur":608, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\SerializableMergeTabState.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524560737, "dur":615, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeViewMenu.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524561353, "dur":774, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeViewFileConflictMenu.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524562127, "dur":1089, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeTreeView.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524563216, "dur":1098, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeTreeHeaderState.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524564315, "dur":1047, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeTab.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524565363, "dur":1849, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeSelection.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524567213, "dur":1311, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\MergeOptionsDialog.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524568525, "dur":1028, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\IsResolved.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524569554, "dur":1698, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\IsCurrent.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524549272, "dur":21981, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524571254, "dur":1364, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UIElements\\LoadingSpinner.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524572618, "dur":1778, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TreeViewSessionState.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524574397, "dur":1393, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TreeViewItemIds.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524575791, "dur":1578, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TreeViewItemExtensions.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524577370, "dur":1167, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TreeHeaderSettings.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524578538, "dur":754, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TreeHeaderColumns.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524579293, "dur":673, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\TableViewOperations.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524579976, "dur":959, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\PlasticTreeView.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524580935, "dur":1311, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\ListViewItemIds.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524582248, "dur":524, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\GetChangesOverlayIcon.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524582772, "dur":1030, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\EmptyStatePanel.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524583803, "dur":1539, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\DrawTreeViewItem.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524585343, "dur":1805, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Tree\\CenteredContentPanel.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524587149, "dur":1559, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\TabButton.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524588710, "dur":1036, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\SortOrderComparer.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524589747, "dur":1852, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\ShowWindow.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524591600, "dur":727, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\ScreenResolution.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524592327, "dur":680, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\RunModal.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524593007, "dur":1519, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\ResponseType.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524594526, "dur":1001, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\ProgressControlsForWindow.cs" }}
+,{ "pid":12345, "tid":1, "ts":1775749524571254, "dur":24273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524595528, "dur":134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524595662, "dur":138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524595800, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1775749524596265, "dur":12264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1775749524523272, "dur":15760, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1775749524539037, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GIModule.dll_B55691EE1FDBFFAE.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524539236, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteMaskModule.dll_FE878950BDD42DBD.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524539943, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreBusinessMetricsModule.dll_D3ED54D39A0C460C.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524540276, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524540422, "dur":1065, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524541489, "dur":8848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll (+2 others)" }}
+,{ "pid":12345, "tid":2, "ts":1775749524550414, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1775749524550574, "dur":3762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll (+2 others)" }}
+,{ "pid":12345, "tid":2, "ts":1775749524554451, "dur":1148, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\PopupWindowDrawing.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524555600, "dur":1230, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\Operations\\UncontrolledPopupOperations.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524556830, "dur":1684, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\Operations\\ToolbarOperationsShortcut.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524558514, "dur":1261, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\Operations\\ControlledPopupOperations.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524559776, "dur":676, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\ControlledPopupWindow.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524560453, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\PopupProgressBar.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524561009, "dur":740, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\NoBranchesEmptyState.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524561750, "dur":591, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\LoadingEmptyState.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524562342, "dur":1452, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\ErrorEmptyState.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524563794, "dur":700, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\BranchesTreeView.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524564495, "dur":1574, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\BranchesList\\BranchesListModel.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524566069, "dur":1727, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessWorkspaceWindow.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524567797, "dur":1135, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessWorkspaceStatusChangeListener.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524568933, "dur":1198, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessViewSwitcher.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524570131, "dur":1474, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessUpdateReport.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524571606, "dur":1696, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessUpdateProgress.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524573303, "dur":1559, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessProgressControls.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524574863, "dur":1443, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessMergeViewLauncher.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524576307, "dur":1503, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessGluonViewHost.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524577811, "dur":1047, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessGluonUpdateReport.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524554451, "dur":24407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1775749524578860, "dur":610, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DragAndDrop\\ErrorsDialog.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524579471, "dur":699, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DragAndDrop\\AskUserForExistingFile.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524580170, "dur":1391, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\ProcessItemsGridViewEvent.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524581562, "dur":868, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\ProcessDragEvent.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524582876, "dur":1201, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\ItemsGridView.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524584087, "dur":1589, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\ItemsGridSelection.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524585677, "dur":1798, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\DrawItemsGridView.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524587476, "dur":1375, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\DrawItemNameBar.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524588852, "dur":1124, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\DrawExpandedTreeNode.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524589977, "dur":1779, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\DirectoryContent\\DirectoryContentPanel.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524591757, "dur":583, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\CloudWorkspacesView.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524592340, "dur":530, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\WindowStatusBar.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524592871, "dur":1579, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Welcome\\WelcomeView.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524594450, "dur":942, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\RefreshAsset.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524595393, "dur":592, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\GetProposedOrganizationProject.cs" }}
+,{ "pid":12345, "tid":2, "ts":1775749524578860, "dur":17830, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1775749524596690, "dur":11866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524523061, "dur":15902, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524538978, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_1279EE29EBF09B14.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1775749524539137, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GridModule.dll_E47F47479346F262.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1775749524539651, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_33EF4027DE8AC7E2.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1775749524540038, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524540386, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":3, "ts":1775749524540478, "dur":773, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":3, "ts":1775749524541253, "dur":1082, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524542335, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524542804, "dur":258, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524543062, "dur":723, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524543786, "dur":426, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524544213, "dur":532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524544746, "dur":398, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524545144, "dur":461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524545606, "dur":656, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524546263, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524546749, "dur":1030, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Dependencies\\FullSerializer\\Converters\\fsForwardConverter.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524546557, "dur":1367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524547925, "dur":358, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524548284, "dur":510, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524548795, "dur":450, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524549441, "dur":930, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Welcome\\DownloadAndInstallOperation.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524550372, "dur":1416, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelvesViewMenu.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524551789, "dur":668, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelvesTab.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524552458, "dur":1745, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelvesSelection.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524554204, "dur":1362, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelvesListView.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524555567, "dur":1216, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelvesListHeaderState.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524556783, "dur":1537, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Shelves\\ShelveListViewItem.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524558321, "dur":1374, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\ShelvePendingChangesDialog.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524559696, "dur":714, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\SelectNewCodeReviewBehavior.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524560411, "dur":560, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\UnityPendingChangesTree.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524560971, "dur":813, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingMergeLinks\\MergeLinksListView.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524561785, "dur":590, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingMergeLinks\\MergeLinkListViewItem.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524562376, "dur":1602, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesViewPendingChangeMenu.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524563979, "dur":653, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesViewMenu.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524564633, "dur":1624, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesTreeView.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524566257, "dur":1674, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesTreeHeaderState.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524567932, "dur":1143, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesTab_Operations.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524569076, "dur":1257, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesTab.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524570334, "dur":1470, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesStatusSuccessNotificationContent.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524549246, "dur":22559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524571806, "dur":1617, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Errors\\ErrorsListView.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524573424, "dur":1533, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Errors\\ErrorsListHeaderState.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524574958, "dur":1494, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Errors\\ErrorListViewItem.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524576453, "dur":1427, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EnumPopupSetting.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524577880, "dur":1115, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EntryBuilder.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524578995, "dur":521, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EditorWindowFocus.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524579517, "dur":704, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EditorVersion.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524580232, "dur":1456, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EditorProgressControls.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524581689, "dur":815, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\EditorProgressBar.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524582982, "dur":1528, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DropDownTextField.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524584510, "dur":1782, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawUserIcon.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524586293, "dur":1900, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawTextBlockWithLink.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524588194, "dur":860, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawStaticElement.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524589055, "dur":1426, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawSplitter.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524590482, "dur":1675, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawSearchField.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524592437, "dur":1130, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawActionToolbar.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524593568, "dur":1292, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawActionHelpBox.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524594860, "dur":936, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawActionButtonWithMenu.cs" }}
+,{ "pid":12345, "tid":3, "ts":1775749524571806, "dur":23991, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524595798, "dur":647, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1775749524596446, "dur":12079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1775749524523801, "dur":15485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1775749524539438, "dur":142, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_14FB9F734CC7AA28.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1775749524539641, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_F8BE4E2F886DB04F.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1775749524539863, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_457074C44585CDDE.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1775749524540036, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_F6EE2176487706CE.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1775749524541841, "dur":875717, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_F6EE2176487706CE.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1775749524523156, "dur":15841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1775749524539005, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_C62F9DFCE7AE0B56.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1775749524539249, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1775749524539541, "dur":129, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_BE28EDEE0C152FBE.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1775749524539671, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_DA02210F1A787B09.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1775749524540401, "dur":327, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1775749524541851, "dur":875094, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_2F018D732F244A87.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1775749524523242, "dur":15775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524539028, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EmbreeModule.dll_9378A89EEEE65014.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1775749524539156, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524539644, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524539782, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524540126, "dur":384, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp" }}
+,{ "pid":12345, "tid":6, "ts":1775749524540750, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524540933, "dur":239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524541173, "dur":232, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524541406, "dur":672, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524542079, "dur":254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524542333, "dur":529, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524543259, "dur":1403, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Editor\\VisualScripting.Flow\\Ports\\UnitOutputPortWidget.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524542862, "dur":2368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524545232, "dur":301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524545533, "dur":552, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524546086, "dur":338, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524546425, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524546742, "dur":1039, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Runtime\\Audio\\AudioPlayableAsset.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524546720, "dur":1337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524548057, "dur":309, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524548367, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524548675, "dur":270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524548945, "dur":334, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524549516, "dur":1226, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\MoveDeleteMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524550742, "dur":1284, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\MoveAddMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524552026, "dur":881, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\MergeViewDirectoryConflictMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524552908, "dur":1696, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\LoadedTwiceMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524554604, "dur":1225, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\EvilTwinMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524555830, "dur":1245, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\DrawDirectoryResolutionPanel.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524557075, "dur":1753, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\DivergentMoveMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524558829, "dur":1103, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\DeleteMoveMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524559933, "dur":561, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\DeleteChangeMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524560495, "dur":628, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\CycleMoveMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524561124, "dur":688, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\ConflictResolutionState.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524561812, "dur":802, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\ChangeDeleteMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524562615, "dur":1458, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\DirectoryConflicts\\AddMoveMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524564073, "dur":847, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\ChangeTreeViewItem.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524564921, "dur":1642, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\Developer\\ChangeCategoryTreeViewItem.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524566564, "dur":1693, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\LocksViewMenu.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524568258, "dur":914, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\LocksTab.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524569172, "dur":1406, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\LocksSelector.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524570579, "dur":1294, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\LocksListViewItem.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524549279, "dur":22595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524571875, "dur":1717, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DrawActionButton.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524573592, "dur":1560, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DockEditorWindow.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524575153, "dur":1522, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DialogWithCheckBox.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524576676, "dur":1401, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DelayedActionBySecondsRunner.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524578078, "dur":1001, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\DelayedActionByFramesRunner.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524579563, "dur":710, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\CheckUnityException.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524580274, "dur":1647, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Avatar\\GetAvatar.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524581922, "dur":588, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Avatar\\AvatarImages.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524582915, "dur":1003, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\ToolConstants.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524583919, "dur":1625, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\PlasticExeLauncher.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524585544, "dur":1755, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\LaunchTool.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524587300, "dur":1462, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\LaunchInstaller.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524588763, "dur":855, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\IsExeVersion.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524589619, "dur":1732, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\IsExeAvailable.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524591352, "dur":963, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\FindTool.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524592766, "dur":1501, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Tool\\AuthToken.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524594267, "dur":1035, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\TestingPreference.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524571874, "dur":23428, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524595303, "dur":671, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\AssetMenu\\AssetFilesFilterPatternsMenuBuilder.cs" }}
+,{ "pid":12345, "tid":6, "ts":1775749524595303, "dur":1076, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1775749524596380, "dur":12147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524523514, "dur":15591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524539235, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524539308, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TilemapModule.dll_E070EEFE9138C1A6.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1775749524539649, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_69E35CFA8E602F1B.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1775749524540017, "dur":599, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_9B42533067F36EE5.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1775749524540667, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524540884, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524541467, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524542002, "dur":258, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524542261, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524542529, "dur":515, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524543045, "dur":346, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524543391, "dur":281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524543673, "dur":782, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524544456, "dur":348, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524544805, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524545122, "dur":304, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524545426, "dur":582, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524546009, "dur":377, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524546386, "dur":308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524546739, "dur":785, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Runtime\\Events\\Signals\\SignalAsset.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524546694, "dur":1317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524548012, "dur":353, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524548366, "dur":293, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524548659, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524548951, "dur":281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524549485, "dur":1014, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\WebApi\\ChangesetFromCollabCommitResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524550499, "dur":1465, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\UI\\CooldownWindowDelayer.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524551964, "dur":728, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\Settings\\PlasticProjectSettingsProvider.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524552692, "dur":1632, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\PlasticPlugin.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524554324, "dur":1318, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\CollabPlugin.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524555642, "dur":1302, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\_Deprecated\\CollabMigration\\MigrateCollabProject.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524556945, "dur":1691, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WorkspaceWindow.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524558636, "dur":1240, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\WebRestApiClient.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524559877, "dur":595, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\TokenExchangeResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524560473, "dur":716, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\SubscriptionDetailsResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524561190, "dur":656, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\ErrorResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524561846, "dur":586, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\CurrentUserAdminCheckResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524562432, "dur":1602, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\WebApi\\CredentialsResponse.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524564034, "dur":799, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\VisualElementExtensions.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524564834, "dur":1529, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\ViewSwitcher.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524566364, "dur":1778, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Welcome\\WelcomeView.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524568142, "dur":981, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Welcome\\MacOSConfigWorkaround.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524549232, "dur":19892, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524569125, "dur":1656, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\Headless\\HeadlessGluonUpdateProgress.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524570782, "dur":1322, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSPluginIsEnabledPreference.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524572105, "dur":1731, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSPlugin.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524573837, "dur":1425, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSNotification.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524575263, "dur":1550, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSMenuItem.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524576814, "dur":1361, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSConnectionMonitor.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524578176, "dur":991, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UnityPlasticDllVersion.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524579168, "dur":541, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UnityConfigurationChecker.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524579709, "dur":883, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UnityThreadWaiter.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524580593, "dur":1509, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UnityStyles.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524583007, "dur":1235, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UnityMenuItem.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524584243, "dur":1673, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UnityEvents.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524585917, "dur":1803, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UnityConstants.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524587731, "dur":1168, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UndoRedo\\UndoRedoTextArea.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524588900, "dur":1441, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UndoRedo\\UndoRedoState.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524590342, "dur":1794, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UndoRedo\\UndoRedoHelper.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524592411, "dur":748, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\UIElements\\ProgressControlsForDialogs.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524569125, "dur":24034, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524593160, "dur":1555, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\CreateWorkspace\\CollaboratorsListView.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524594716, "dur":987, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\CloudDriveWindow.cs" }}
+,{ "pid":12345, "tid":7, "ts":1775749524593160, "dur":3721, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1775749524596881, "dur":11682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524523314, "dur":15728, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524539048, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphicsStateCollectionSerializerModule.dll_962CCF901394F3AE.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1775749524539125, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphicsStateCollectionSerializerModule.dll_962CCF901394F3AE.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1775749524539263, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SubstanceModule.dll_1F83718FEE40FC78.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1775749524539559, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputForUIModule.dll_18BBDE21FEC94E4A.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1775749524539683, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_32C5F8F6C6425854.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1775749524540179, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp" }}
+,{ "pid":12345, "tid":8, "ts":1775749524540403, "dur":338, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":8, "ts":1775749524540868, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp" }}
+,{ "pid":12345, "tid":8, "ts":1775749524540935, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524541171, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524541409, "dur":874, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524542283, "dur":523, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524542806, "dur":247, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524543054, "dur":401, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524543455, "dur":297, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524543752, "dur":287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524544039, "dur":266, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524544305, "dur":263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524544569, "dur":348, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524544918, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524545212, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524545477, "dur":508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524545985, "dur":581, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524546748, "dur":954, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Collections\\NoAllocEnumerator.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524547702, "dur":1602, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Collections\\MergedList.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524546567, "dur":2806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524549557, "dur":1268, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\LocksListHeaderState.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524550826, "dur":1381, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Locks\\DrawLocksListViewItem.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524552208, "dur":873, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\LaunchDiffOperations.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524553081, "dur":1617, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsViewMenu.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524554699, "dur":1258, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsTab_Operations.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524555957, "dur":1303, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsTab.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524557261, "dur":1688, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsSelection.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524558950, "dur":1038, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsListView.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524559989, "dur":538, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelsListHeaderState.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524560527, "dur":702, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\LabelListViewItem.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524561230, "dur":714, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\Dialogs\\RenameLabelDialog.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524561944, "dur":1066, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\Dialogs\\CreateLabelView.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524563011, "dur":1239, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Labels\\Dialogs\\CreateLabelDialog.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524564250, "dur":907, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\SerializableHistoryTabState.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524565157, "dur":1857, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\SaveAction.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524567014, "dur":1440, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistoryTab.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524568455, "dur":882, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistorySelection.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524569338, "dur":1776, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistoryListViewMenu.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524571114, "dur":1285, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistoryListViewItem.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524549373, "dur":23027, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524572401, "dur":1795, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\SwitchUVCSPlugin.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524574197, "dur":1459, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\SwitchModeConfirmationDialog.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524575657, "dur":1497, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\StatusBar\\WindowStatusBar.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524577154, "dur":1259, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\StatusBar\\NotificationBar.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524578424, "dur":809, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\StatusBar\\INotificationContent.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524579234, "dur":521, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\StatusBar\\GUIContentNotification.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524579756, "dur":758, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Settings\\UVCSProjectSettingsProvider.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524580515, "dur":1542, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Settings\\ShelveAndSwitchOptionsFoldout.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524582058, "dur":547, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Settings\\PendingChangesOptionsFoldout.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524583087, "dur":1243, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Settings\\OpenUVCSProjectSettings.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524584331, "dur":1783, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Settings\\DiffAndMergeOptionsFoldout.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524586115, "dur":1976, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\SceneView\\DrawSceneOperations.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524588092, "dur":831, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\RecommendToEnableManualCheckout.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524588924, "dur":1184, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\QueryVisualElementsExtensions.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524590109, "dur":2007, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\ProjectPackages.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524592367, "dur":714, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\PlasticApp.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524593082, "dur":1539, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\ParentWindow.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524594621, "dur":1072, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\PackageInfo.cs" }}
+,{ "pid":12345, "tid":8, "ts":1775749524572401, "dur":23292, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524595694, "dur":387, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524596211, "dur":11955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1775749524608168, "dur":320, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524523386, "dur":15708, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524539226, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524539388, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524539644, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_D5696278D3C0AE5D.mvfrm" }}
+,{ "pid":12345, "tid":9, "ts":1775749524539922, "dur":165, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A07DD9D4B42E45FF.mvfrm" }}
+,{ "pid":12345, "tid":9, "ts":1775749524540089, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":9, "ts":1775749524540213, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp" }}
+,{ "pid":12345, "tid":9, "ts":1775749524540388, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2" }}
+,{ "pid":12345, "tid":9, "ts":1775749524540912, "dur":466, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524541752, "dur":650, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Editor\\Actions\\TrackActions.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524541378, "dur":1509, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524542888, "dur":436, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524543325, "dur":484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524543810, "dur":280, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524544090, "dur":268, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524544359, "dur":347, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524544706, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524545002, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524545298, "dur":283, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524545581, "dur":750, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524546346, "dur":1370, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Graphs\\IGraphParent.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524546332, "dur":1725, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524548058, "dur":310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524548369, "dur":322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524548691, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524548959, "dur":294, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524549404, "dur":626, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\PendingChangesMultiColumnHeader.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524550031, "dur":1510, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\FilesFilterPatternsMenuBuilder.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524551541, "dur":813, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\DrawOperationSuccess.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524552355, "dur":1176, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\DrawCommentTextArea.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524553532, "dur":1508, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\LaunchDependenciesDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524555041, "dur":1395, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\LaunchCheckinConflictsDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524556437, "dur":1332, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\FilterRulesConfirmationDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524557769, "dur":1560, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\EmptyCommentDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524559330, "dur":823, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\DependenciesDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524560617, "dur":679, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Dialogs\\CheckinConflictsDialog.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524561296, "dur":781, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\CreatedChangesetEmptyStatePanel.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524562078, "dur":1236, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\CreatedChangesetData.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524563315, "dur":1040, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\ChangeTreeViewItem.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524564355, "dur":1203, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\ChangelistTreeViewItem.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524565559, "dur":1774, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Changelists\\MoveToChangelistMenuBuilder.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524567334, "dur":1294, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\Changelists\\ChangelistMenu.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524568629, "dur":1047, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\PendingChanges\\ChangeCategoryTreeViewItem.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524569677, "dur":1732, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Merge\\IIncomingChangesTab.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524549254, "dur":22156, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524571411, "dur":1421, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\ProgressControlsForViews.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524572832, "dur":1656, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\ProgressControlsForDialogs.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524574489, "dur":1435, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\OperationProgressData.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524575924, "dur":1528, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\LoadingSpinner.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524577452, "dur":1152, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\DrawProgressForWindow.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524578605, "dur":795, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\DrawProgressForViews.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524579409, "dur":643, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\DrawProgressForOperations.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524580052, "dur":1115, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Progress\\DrawProgressForDialogs.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524581168, "dur":1092, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\PlasticSplitterGUILayout.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524583148, "dur":1495, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\MeasureMaxWidth.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524584644, "dur":1829, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Images.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524586473, "dur":1746, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\HandleMenuItem.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524588219, "dur":922, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\GuiEnabled.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524589142, "dur":1653, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\GUIActionRunner.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524590795, "dur":1433, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\GetWindowIfOpened.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524592487, "dur":1274, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\FindEditorWindow.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524593762, "dur":1169, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UI\\Errors\\ErrorsPanel.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524571411, "dur":23520, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524594932, "dur":882, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\AssetsUtils\\AssetsPath.cs" }}
+,{ "pid":12345, "tid":9, "ts":1775749524594932, "dur":1932, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1775749524596864, "dur":11658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524523585, "dur":15672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524539266, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteShapeModule.dll_F50DFFF44A9673E4.mvfrm" }}
+,{ "pid":12345, "tid":10, "ts":1775749524539475, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524539801, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_F926E905AD5CD278.mvfrm" }}
+,{ "pid":12345, "tid":10, "ts":1775749524540067, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524540394, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":10, "ts":1775749524540878, "dur":249, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524541127, "dur":207, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524541334, "dur":637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524541971, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524542262, "dur":620, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524542883, "dur":270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524543377, "dur":1075, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Flow\\Unit.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524543154, "dur":1640, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524544795, "dur":279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524545075, "dur":302, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524545377, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524545688, "dur":659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524546348, "dur":278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524546742, "dur":917, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Runtime\\Utilities\\NotificationUtilities.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524547659, "dur":534, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.timeline@6b9e48457ddb\\Runtime\\Utilities\\IPropertyPreview.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524546626, "dur":1685, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524548311, "dur":328, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524548639, "dur":272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524548912, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524549177, "dur":254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524549432, "dur":788, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\Dialogs\\RepositoryExplorerDialog.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524550220, "dur":1510, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\Dialogs\\RepositoriesListView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524551731, "dur":660, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\Dialogs\\RepositoriesListHeaderState.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524552392, "dur":1464, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\Dialogs\\CreateRepositoryDialog.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524553857, "dur":1569, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\CreateWorkspaceViewState.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524555427, "dur":1314, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\CreateWorkspaceView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524556741, "dur":1440, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\ConfirmContinueWithPendingChangesDialog.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524558181, "dur":1396, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\GetChangesetsQuery.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524559577, "dur":787, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\Dialogs\\LabelChangesetDialog.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524560816, "dur":769, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetsTab_Operations.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524561586, "dur":660, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetsTab.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524562247, "dur":1133, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetsSelection.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524563381, "dur":1001, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetsListView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524564383, "dur":1584, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetsListHeaderState.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524565968, "dur":1641, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetListViewItem.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524567610, "dur":1172, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Changesets\\ChangesetExplorerView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524568783, "dur":1098, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\BrowseRepository\\BrowseRepositoryViewItem.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524569882, "dur":1620, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\BrowseRepository\\BrowseRepositoryTreeView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524571503, "dur":1545, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\BrowseRepository\\BrowseRepositoryPanel.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524549432, "dur":23617, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524573050, "dur":1553, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\PackageEntryPoint.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524574604, "dur":1432, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\OrganizationsInformation.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524576037, "dur":1471, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\MetaPath.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524577509, "dur":1139, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\LaunchPackageManager.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524578649, "dur":692, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\IntSetting.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524579341, "dur":680, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Inspector\\InspectorAssetSelection.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524580022, "dur":1234, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Inspector\\DrawInspectorOperations.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524581265, "dur":1070, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\IncomingChanges.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524582815, "dur":650, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Hub\\ParseArguments.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524583466, "dur":1574, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Hub\\Operations\\OperationParams.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524585041, "dur":1801, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Hub\\Operations\\DownloadRepository.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524586843, "dur":1591, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Hub\\Operations\\CreateWorkspace.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524588435, "dur":795, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Hub\\CommandLineArguments.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524589231, "dur":1777, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\HierarchyExtensions.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524591009, "dur":1256, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\UpdateReport\\UpdateReportListView.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524592661, "dur":1287, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\UpdateReport\\UpdateReportDialog.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524593949, "dur":1074, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\UpdateReport\\ErrorListViewItem.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524595023, "dur":797, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\UpdateProgress.cs" }}
+,{ "pid":12345, "tid":10, "ts":1775749524573050, "dur":22770, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524595821, "dur":370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1775749524596217, "dur":12336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524523956, "dur":15346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524539578, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.MarshallingModule.dll_89DB40BD8B5679B1.mvfrm" }}
+,{ "pid":12345, "tid":11, "ts":1775749524539918, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.MarshallingModule.dll_89DB40BD8B5679B1.mvfrm" }}
+,{ "pid":12345, "tid":11, "ts":1775749524540159, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.rsp" }}
+,{ "pid":12345, "tid":11, "ts":1775749524540381, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp" }}
+,{ "pid":12345, "tid":11, "ts":1775749524540720, "dur":208, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2" }}
+,{ "pid":12345, "tid":11, "ts":1775749524540929, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524541146, "dur":240, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524541387, "dur":529, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524541916, "dur":999, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524542915, "dur":503, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524543419, "dur":301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524543720, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524544002, "dur":271, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524544273, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524544584, "dur":349, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524544934, "dur":314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524545248, "dur":318, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524545567, "dur":554, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524546121, "dur":368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524546752, "dur":984, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Dependencies\\FullSerializer\\Converters\\Unity\\InputAction_DirectConverter.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524546490, "dur":1279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524548179, "dur":1150, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.ugui@aa507f3228f0\\Runtime\\TMP\\TMP_SpriteAsset.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524547769, "dur":1608, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524549377, "dur":535, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistoryListView.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524549912, "dur":1410, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\History\\HistoryListHeaderState.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524551323, "dur":1000, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\FileSystemOperation.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524552323, "dur":1353, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\EnableSwitchAndShelveFeatureDialog.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524553676, "dur":1552, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\DownloadPlasticExeDialog.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524555229, "dur":1409, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\UnityDiffTree.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524556639, "dur":1279, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\MergeCategoryTreeViewItem.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524557918, "dur":1551, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\GetClientDiffInfos.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524559470, "dur":856, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\DiffTreeViewMenu.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524560327, "dur":602, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\DiffTreeView.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524560930, "dur":713, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\DiffSelection.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524561644, "dur":660, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\DiffPanel.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524562304, "dur":1353, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\Dialogs\\GetRestorePathDialog.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524563658, "dur":761, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\ClientDiffTreeViewItem.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524564420, "dur":1334, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Diff\\ChangeCategoryTreeViewItem.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524565755, "dur":1723, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\DateFilter.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524567479, "dur":1273, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\ValidRepositoryName.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524568754, "dur":1245, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\PerformInitialCheckin.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524570000, "dur":1545, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\DrawCreateWorkspaceView.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524571546, "dur":1668, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\CreateWorkspace\\Dialogs\\RepositoryListViewItem.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524549377, "dur":23837, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524573215, "dur":1500, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\ShelvedChangesNotification.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524574716, "dur":1385, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\ProgressOperationHandler.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524576102, "dur":1595, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\IncomingChangesNotification.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524577697, "dur":1007, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Gluon\\CheckinProgress.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524578705, "dur":743, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\GetRelativePath.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524579449, "dur":664, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\FindWorkspace.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524580114, "dur":1222, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\ExternalLink.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524581342, "dur":1025, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\EnumExtensions.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524582800, "dur":791, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\UpdateReport\\UpdateReportListView.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524583592, "dur":1643, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\UpdateReport\\UpdateReportListHeaderState.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524585236, "dur":1784, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\UpdateReport\\UpdateReportLineListViewItem.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524587021, "dur":1576, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\UpdateReport\\UpdateReportDialog.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524588598, "dur":779, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\UpdateProgress.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524589378, "dur":1828, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\ShelvedChangesNotification.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524591207, "dur":1081, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\ProgressOperationHandler.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524592739, "dur":1435, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\GenericProgress.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524594175, "dur":980, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Developer\\CheckinProgress.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524595155, "dur":747, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\WriteLogConfiguration.cs" }}
+,{ "pid":12345, "tid":11, "ts":1775749524573215, "dur":22687, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1775749524596212, "dur":12348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524523643, "dur":15629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524539278, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TerrainModule.dll_4174877D797BE09D.mvfrm" }}
+,{ "pid":12345, "tid":12, "ts":1775749524539544, "dur":211, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_32A2649FA496C1A4.mvfrm" }}
+,{ "pid":12345, "tid":12, "ts":1775749524539923, "dur":231, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_DC8D622776E623E1.mvfrm" }}
+,{ "pid":12345, "tid":12, "ts":1775749524540225, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp" }}
+,{ "pid":12345, "tid":12, "ts":1775749524540314, "dur":1187, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp" }}
+,{ "pid":12345, "tid":12, "ts":1775749524541502, "dur":993, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524542496, "dur":634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524543582, "dur":2390, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Editor\\VisualScripting.Flow\\Connections\\UnitConnectionStyles.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524543131, "dur":2936, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524546068, "dur":555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524546740, "dur":952, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Core\\Collections\\DebugDictionary.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524546624, "dur":1455, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524548153, "dur":1179, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5\\InputSystem\\Utilities\\SpriteUtilities.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524548080, "dur":1447, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524549527, "dur":1342, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\BrowseRepository\\BrowseRepositoryHeaderState.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524550869, "dur":1401, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\SerializableBranchesTabState.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524552270, "dur":939, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\Dialogs\\RenameBranchDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524553210, "dur":1555, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\Dialogs\\DeleteBranchDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524554766, "dur":1375, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\Dialogs\\CreateBranchDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524556142, "dur":1222, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchListViewItem.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524557365, "dur":1768, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchesViewMenu.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524559134, "dur":964, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchesTab_Operations.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524560561, "dur":690, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchesSelection.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524561252, "dur":637, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchesListView.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524561890, "dur":916, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\Branch\\BranchesListHeaderState.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524562807, "dur":1326, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Views\\ApplyShelveWithConflictsQuestionerBuilder.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524564133, "dur":837, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\VCSBuiltInPlugin.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524564970, "dur":1838, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSWindow.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524566808, "dur":1579, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbarButtonIsShownPreference.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524568387, "dur":845, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\UVCSToolbarButtonData.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524569233, "dur":1677, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\UVCSToolbar.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524570911, "dur":1284, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\ToolbarController.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524572196, "dur":1870, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\UVCSToolbar\\PopupWindow\\UncontrolledPopupWindow.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524549527, "dur":24539, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524574067, "dur":1393, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\ToolConfig.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524575461, "dur":1569, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\TeamEdition\\TeamEditionConfigurationWindow.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524577031, "dur":1267, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\SSOCredentialsDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524578299, "dur":910, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\MissingEncryptionPasswordPromptHandler.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524579210, "dur":618, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\EncryptionConfigurationDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524579829, "dur":984, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CredentialsUIImpl.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524580814, "dur":1359, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CredentialsDialog.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524582668, "dur":591, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\WaitingSignInPanel.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524583275, "dur":1580, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\SignInWithEmailPanel.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524584856, "dur":1792, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\SignInPanel.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524586649, "dur":1654, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\OrganizationPanel.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524588304, "dur":784, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\CloudEditionWelcomeWindow.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524589088, "dur":1611, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\CloudEdition\\Welcome\\AutoLogin.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524590700, "dur":1482, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\ClientConfiguration.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524592447, "dur":906, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\Configuration\\AutoConfig.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524593354, "dur":1439, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\Tree\\CloudWorkspacesTreeViewItem.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524594793, "dur":914, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad\\Editor\\CloudDrive\\Workspaces\\Tree\\CloudWorkspacesTreeView.cs" }}
+,{ "pid":12345, "tid":12, "ts":1775749524574067, "dur":21962, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1775749524596218, "dur":12314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1775749525422550, "dur":2986, "ph":"X", "name": "ProfilerWriteOutput" }
+,
